@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+main {
+    background-color: #282a35;
+    padding: 15px;
+    margin: 100px auto;
+    width: 350px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.signup, .login {
+    display: block;
+    width: 100%;
+    padding: 2%;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.signup {
+    background-color: #00ffffa9;
+    color: white;
+}
+
+.login {
+    background-color: #857e75;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 5px;
+}
+
+.form__div {
+    display: flex;
+    justify-content: center;
+}
+
+.form__firstname, .form__lastname {
+    display: block;
+    width: 100%;
+}
+
+.form__div2 {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: #282a35;
+    color: white;
+    border: 1px solid white;
+    padding: 2%;
+    margin: 2%;
+}
+
+.form__submit {
+    background-color: #00ffffa9;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("./pexels-dids-2911521.jpg");
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 10px 30px;
+    margin: 100px auto;
+    border-radius: 50px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.form {
+    padding: 5px 10px;
+}
+.form__div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.form__firstname, .form__lastname {
+    display: block;
+    width: 100%;
+}
+
+.form__div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    padding: 10px 20px;
+    margin: 5px 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.form__div2__checkbox {
+    padding: 15px;
+}
+
+.form__submit {
+    text-transform: uppercase;
+    background-color: rgb(65, 4, 65);
+    color: white;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2em;
+}
+.form__submit:hover {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}

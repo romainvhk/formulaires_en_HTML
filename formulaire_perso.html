@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_perso.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Formulaire perso</title>
+</head>
+
+    <body>
+        <main>
+            <h1>Formulaire de Contact</h1>
+
+            <form class="form" method="post" action="#">
+                <div class="form__div1">
+                    <input class="form__firstname" type="text" name="FirstName" placeholder="Prénom">
+
+                    <input class="form__lastname" type="text" name="LastName" placeholder="Nom">
+                </div>
+
+                <div class="form__div2">
+                    <input class="form__email" type="email" name="Email" placeholder="E-mail">
+
+                    <select class="form__objet" name="Objet">
+                        <option value="SuivieDeCommande">Suivie de commande</option>
+                        <option value="RetourCommande">Retour de commande</option>
+                        <option value="SAV">Service après vente</option>
+                    </select>
+
+                    <textarea class="form__message" name="Message" rows="10" placeholder="Votre e-mail"></textarea>
+
+                    <div class="form__div2__checkbox">
+                        <label>
+                            <input class="form__CGV" type="checkbox" name="CgvAccepted">
+                            J'accepte les conditions d'utilisation</label>
+                    </div>
+
+                    <input class="form__submit" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
